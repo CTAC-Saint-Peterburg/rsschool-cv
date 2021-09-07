@@ -21,7 +21,8 @@
 
 **Some Code**
 
-```function MinNumber(a,b) {
+```
+function MinNumber(a,b) {
 return Math.min(a,b);
 };
 ```  

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://CTAC-Saint-Peterburg.github.io/rsschool-cv/cv

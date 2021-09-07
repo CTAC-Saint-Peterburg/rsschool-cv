@@ -24,4 +24,14 @@
 ```function MinNumber(a,b) {
 return Math.min(a,b);
 };
-```
+```  
+
+**Github and Playmarket**  
+
+* [Github](https://github.com/CTAC-Saint-Peterburg)
+* [GooglePlayMarket](https://play.google.com/store/apps/developer?id=Seleznev+Stanislav&hl=ru&gl=US)  
+
+**Languages**
+
+* Russian native
+* English B1/A2

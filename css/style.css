@@ -1,10 +1,11 @@
 .container {
     margin: auto;
     width: 1000px;
-    height: 100vh;
+    height: 100%;
     background-color: #edf2ef;
 }
 body {
+    margin: 0 0 0 0;
     font-family: Arial;
     background-color: #ffbf00;
 }

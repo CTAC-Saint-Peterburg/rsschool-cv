@@ -1,0 +1,10 @@
+.container {
+    margin: auto;
+    width: 1200px;
+    height: 100vh;
+    background-color: #edf2ef;
+}
+.body {
+    font-family: Arial;
+    background-color: #ffbf00;
+}

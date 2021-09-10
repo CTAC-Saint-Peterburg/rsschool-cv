@@ -7,6 +7,7 @@
 body {
     margin: 0 0 0 0;
     font-family: Arial;
+    font-weight: 700;
     background-color: #ffbf00;
 }
 .my__img {
@@ -71,4 +72,7 @@ h2 {
 }
 .github {
     float: right;
+}
+.paragraph {
+    margin: 30px 20px 0 20px;
 }

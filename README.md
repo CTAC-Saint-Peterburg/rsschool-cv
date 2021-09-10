@@ -1,1 +1,1 @@
-https://CTAC-Saint-Peterburg.github.io/rsschool-cv/cv
+https://ctac-saint-peterburg.github.io/rsschool-cv/index.html

@@ -1,0 +1,78 @@
+.container {
+    margin: auto;
+    width: 1000px;
+    height: 100%;
+    background-color: #edf2ef;
+}
+body {
+    margin: 0 0 0 0;
+    font-family: Arial;
+    font-weight: 700;
+    background-color: #ffbf00;
+}
+.my__img {
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin: 40px 40px 0 0;
+    border: solid black 8px; 
+    border-radius: 50px;
+}
+.photo__box {
+    float: right;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+.greeting {
+    float: left;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+.greeting > h1 {
+    margin: 30% 0 0 0;
+    color: black;
+    background-color: #edf2ef;
+    font-size: 54px;
+}
+h2 {
+    margin: 20px 20px 20px 20px;
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+.pre {
+    height: 200px;
+    background-color: black;
+}
+.code {
+    width: 1000px;
+    color: white;
+    font-size: 34px;
+}
+.footer {
+    height: 150px;
+    width: 1000px;
+    background-color: orange;
+    text-align: center;
+}
+.rsschool > a > img {
+    margin: 10px 0 0 70px;
+    height: 100px;
+    width: 100px;
+}
+.github > a > img {
+    margin: 10px 70px 0 0;
+    height: 100px;
+    width: 100px;
+}
+.rsschool {
+    float: left;
+}
+.github {
+    float: right;
+}
+.paragraph {
+    margin: 30px 20px 0 20px;
+}

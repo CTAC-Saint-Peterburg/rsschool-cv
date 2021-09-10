@@ -35,3 +35,40 @@ body {
     background-color: #edf2ef;
     font-size: 54px;
 }
+h2 {
+    margin: 20px 20px 20px 20px;
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+.pre {
+    height: 200px;
+    background-color: black;
+}
+.code {
+    width: 1000px;
+    color: white;
+    font-size: 34px;
+}
+.footer {
+    height: 150px;
+    width: 1000px;
+    background-color: orange;
+    text-align: center;
+}
+.rsschool > a > img {
+    margin: 10px 0 0 70px;
+    height: 100px;
+    width: 100px;
+}
+.github > a > img {
+    margin: 10px 70px 0 0;
+    height: 100px;
+    width: 100px;
+}
+.rsschool {
+    float: left;
+}
+.github {
+    float: right;
+}

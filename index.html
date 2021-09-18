@@ -8,14 +8,26 @@
     <script type="text/javascript">
     console.log("test");
     </script>
+    <script type="text/javascript">
+    let burgerButtonStatus = false;
+        function burgerOpenClose() {
+            if (!burgerButtonStatus) {
+                document.getElementById("ulList").style.visibility = "visible";
+                 burgerButtonStatus = true;
+            } else {
+                document.getElementById("ulList").style.visibility = "";
+                 burgerButtonStatus = false;
+             };
+        };
+    </script>
 </head>  
 <body>
     <div class="container">
         <nav class="navigation__bar">
-            <div class="burger__button">
+            <div class="burger__button" onclick="burgerOpenClose()">
                 <div></div>
             </div>
-            <ul class="nav__ul">
+            <ul class="nav__ul" id="ulList">
                 <li>
                     <a href="#mycontacts">My contacts</a>
                 </li>

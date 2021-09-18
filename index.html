@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Stanislav Seleznev CV</title>
     <script type="text/javascript">
-    console.log("test");
+    console.log(" Верстка валидная +10\n html5 tags +14\n css +10\n блок контента центрирован +10\n бургер меню (адаптируется) при ширине < 750px + 10\n есть CV фото +10\n ul > li +10\n CV info +10\n CV code +10\n CV выполнено на английском +10\n Pull Request +10\n похоже на примеры для задания (не использую aside сознательно) +10\n 124 балла");
     </script>
     <script type="text/javascript">
     let burgerButtonStatus = false;
@@ -49,10 +49,14 @@
             </ul>
         </nav>
         <div class="photo__box">
-            <img src="img/myphoto.jpg" class="my__img" alt="img">
+            <figure>
+             <img src="img/myphoto.jpg" class="my__img" alt="img">
+            </figure>
         </div>
         <div class="greeting">
-            <h1>Hello my name is Seleznev Stanislav and this is my CV</h1>
+            <header>
+             <h1>Hello my name is Seleznev Stanislav and this is my CV</h1>
+            </header>
         </div>
         <main>
             <section class="all__about__me">
@@ -78,9 +82,16 @@
                 <h2 id="somecode">Some Code</h2>
                 <pre class="pre">
                     <code class="code">
-         function MinNumber(a,b) {
-            return Math.min(a,b);
-        };
+  let burgerButtonStatus = false;
+      function burgerOpenClose() {
+       if (!burgerButtonStatus) {
+           document.getElementById("ulList").style.visibility = "visible";
+               burgerButtonStatus = true;
+                  } else {
+                       document.getElementById("ulList").style.visibility = "";
+                       burgerButtonStatus = false;
+                       };
+                   };
                     </code>
                 </pre>
                 <h2>Github and Playmarket</h2>
@@ -101,12 +112,12 @@
             <footer class="footer" id="github">
                 <div class="github">
                     <a href="https://github.com/CTAC-Saint-Peterburg">
-                    <img src="img/github.svg">
+                    <img src="img/github.svg" alt="githubImg">
                     </a>
                 </div>
                 <div class="rsschool">
                     <a href="https://rs.school/js/">
-                    <img src="img/rsschool.svg">
+                    <img src="img/rsschool.svg" alt="rsschoolImg">
                     </a>
                 </div>
                 <div><h1>2021</h1></div>

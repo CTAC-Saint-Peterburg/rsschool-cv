@@ -34,7 +34,7 @@ body {
     color: white;
     text-decoration: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .nav__ul > li > a {
         color: white;
         text-decoration: none;
@@ -43,8 +43,8 @@ body {
         list-style: none;
         display: block;
         align-items: center;
-        font-size: 30px;
-        padding: 0 0 0 5%;
+        font-size: 40px;
+        padding: 0 0 0 10%;
         background-color: black;
         visibility: hidden;
     }
@@ -86,7 +86,7 @@ body {
     width: 500px;
     background-color: black;
 }
-.greeting > h1 {
+.greeting > header >h1 {
     margin: 30% 0 0 0;
     color: black;
     background-color: #edf2ef;
@@ -105,7 +105,7 @@ h2 {
 .code {
     width: 1000px;
     color: white;
-    font-size: 34px;
+    font-size: 14px;
 }
 .footer {
     height: 150px;
@@ -131,4 +131,7 @@ h2 {
 }
 .paragraph {
     margin: 30px 20px 0 20px;
+}
+figure {
+    margin: 0 0 0 0;
 }

@@ -5,26 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Stanislav Seleznev CV</title>
+    <script type="text/javascript">
+    console.log(" Верстка валидная +10\n html5 tags +14\n css +10\n блок контента центрирован +10\n бургер меню (адаптируется) при ширине < 750px + 10\n есть CV фото +10\n ul > li +10\n CV info +10\n CV code +10\n CV выполнено на английском +10\n Pull Request +10\n похоже на примеры для задания (не использую aside сознательно) +10\n 124 балла");
+    </script>
+    <script type="text/javascript">
+    let burgerButtonStatus = false;
+        function burgerOpenClose() {
+            if (!burgerButtonStatus) {
+                document.getElementById("ulList").style.visibility = "visible";
+                 burgerButtonStatus = true;
+            } else {
+                document.getElementById("ulList").style.visibility = "";
+                 burgerButtonStatus = false;
+             };
+        };
+    </script>
+</head>  
+<body>
     <div class="container">
+        <nav class="navigation__bar">
+            <div class="burger__button" onclick="burgerOpenClose()">
+                <div></div>
+            </div>
+            <ul class="nav__ul" id="ulList">
+                <li>
+                    <a href="#mycontacts">My contacts</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#somecode">Some Code</a>
+                </li>
+                <li>
+                    <a href="#languages">Languages</a>
+                </li>
+                <li>
+                    <a href="#github">github</a>
+                </li>
+            </ul>
+        </nav>
         <div class="photo__box">
-            <img src="img/myphoto.jpg" class="my__img" alt="img">
+            <figure>
+             <img src="img/myphoto.jpg" class="my__img" alt="img">
+            </figure>
         </div>
         <div class="greeting">
-            <h1>Hello my name is Seleznev Stanislav and this is my CV</h1>
+            <header>
+             <h1>Hello my name is Seleznev Stanislav and this is my CV</h1>
+            </header>
         </div>
         <main>
-            <section class="about__me">
-                <h2>My contacts</h2>
+            <section class="all__about__me">
+                <h2 id="mycontacts">My contacts</h2>
                 <ol>
                     <li>Mail: seleznev-00@mail.ru</li>
                     <li>Phone number: +79117305212</li>
                     <li>Skype: dumbas134</li>
                 </ol>
-                <h2>About me</h2>
+                <h2 id="aboutme">About me</h2>
                 <p class="paragraph">I am 24 years old and  open to new knowledge! I received a higher law degree in 2019 and decided not to keep myself within the limits and try something new, namely programming.
                 I live in St. Petersburg, Russia, to contact me, use the information in the contacts section, good luck!)
                 </p>
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ol>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -33,12 +79,19 @@
                     <li>Blender</li>
                     <li>Microsoft office tools </li>
                 </ol>
-                <h2>Some Code</h2>
+                <h2 id="somecode">Some Code</h2>
                 <pre class="pre">
                     <code class="code">
-         function MinNumber(a,b) {
-            return Math.min(a,b);
-        };
+  let burgerButtonStatus = false;
+      function burgerOpenClose() {
+       if (!burgerButtonStatus) {
+           document.getElementById("ulList").style.visibility = "visible";
+               burgerButtonStatus = true;
+                  } else {
+                       document.getElementById("ulList").style.visibility = "";
+                       burgerButtonStatus = false;
+                       };
+                   };
                     </code>
                 </pre>
                 <h2>Github and Playmarket</h2>
@@ -50,21 +103,21 @@
                         <p><a href="https://play.google.com/store/apps/developer?id=Seleznev+Stanislav&hl=ru&gl=US">GooglePlayMarket</a></p>
                     </li>
                 </ul>
-                <h2>Languages</h2>
+                <h2 id="languages">Languages</h2>
                 <ul>
                     <li>Russian native</li>
                     <li>English B1/A2</li>
                 </ul>
             </section>
-            <footer class="footer">
+            <footer class="footer" id="github">
                 <div class="github">
                     <a href="https://github.com/CTAC-Saint-Peterburg">
-                    <img src="img/github.svg">
+                    <img src="img/github.svg" alt="githubImg">
                     </a>
                 </div>
                 <div class="rsschool">
                     <a href="https://rs.school/js/">
-                    <img src="img/rsschool.svg">
+                    <img src="img/rsschool.svg" alt="rsschoolImg">
                     </a>
                 </div>
                 <div><h1>2021</h1></div>
@@ -72,6 +125,5 @@
         </main>
 
     </div>
-</head>
-<body></body>
+</body>
 </html>
